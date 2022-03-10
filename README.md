@@ -30,19 +30,19 @@ y = 2 # int
 z = 1.5 # float
 # Arithmetic operations
 print(x + y) # 6
-print(x - y) # 6
-print(x * y) # 6
-print(x / y) # 6
-print(x // y) # 6
-print(x % y) # 6
-print(x ** y) # 6
-print(-x) # 6
-print(abs(-x)) # 6
-print(int(z)) # 6
-print(float(x)) # 6
-print(round(z)) # 6
+print(x - y) # 2
+print(x * y) # 8
+print(x / y) # 2.0 dividing always produce float value
+print(x // y) # 2 gives intger quotient 
+print(x % y) # 0 gives remainder
+print(x ** y) # 16 gives power 4*4
+print(-x) # -4
+print(abs(-x)) # 4 gives absolute value
+print(int(z)) # 1 converts to integer
+print(float(x)) # 4.0 converts to float
+print(round(z)) # 2 rounds the number
 import math
-print(math.ceil(z)) # 6
-print(math.floor(z)) # 6
-print(math.pow(x, y)) # 6
+print(math.ceil(z)) # 2 
+print(math.floor(z)) # 1
+print(math.pow(x, y)) # 16 calculate power
 ```
